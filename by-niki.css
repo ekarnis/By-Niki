@@ -1,0 +1,162 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #000000;
+    width:100vw;
+    height:100vh;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: white;
+}
+a{
+	background-size: 100% 100%;
+	z-index: 3;
+	color: white;
+	text-decoration:none;
+	text-align: center;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#b1{
+   	width: 33vw;
+	height: 100vh;
+}
+#b2{
+	width: 33vw;
+	height: 100vh;
+}
+#b3{
+   	width: 33vw;
+	height: 100vh;
+}
+
+#box_top{
+    position: absolute;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width:100vw;
+    z-index: 3;
+    top:0;
+    left:0;
+    overflow: hidden;
+    border-style: none none solid none;
+	border-color: white;
+}
+#box_bottom{
+    position: absolute;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width:100vw;
+    z-index: 3;
+    left:0;
+    overflow: hidden;
+    border-style: solid none none none;
+	border-color: white;
+}	
+
+@media only screen and (orientation: portrait) {
+	.M_E_T_A_box{
+        display: flex;
+        flex-shrink: 0;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: stretch;
+        width:100vw;
+        height:100vh;
+        z-index: 2;
+
+    }
+	.box{
+	    display: flex;
+	    flex-flow: column nowrap;
+	    justify-content: center;
+	    align-content: center;
+	    align-items: center;
+	    width:100vw;
+	    height:100vh;
+	    z-index: 2;
+	}
+
+	a{
+	    font-size: 5vw;
+	}
+	.icon{
+		width: 30vw;
+	    height: 30vw;
+	}
+	
+	#home{
+
+	}
+
+	#box_top{
+	    height:10vh;
+	}
+	#box_bottom{
+	    height:10vh;
+	    top:90vh;
+	}	
+
+	#eric{
+	    font-size: 4vw;
+	    padding-top: 5vw;
+  		padding-bottom: 5vw;
+	}
+}
+
+@media only screen and (orientation: landscape) {
+	.M_E_T_A_box{
+        display: flex;
+        flex-shrink: 0;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: stretch;
+        width:100vw;
+        height:100vh;
+        z-index: 2;
+
+    }
+	.box{
+	    display: flex;
+	    flex-flow: column nowrap;
+	    justify-content: center;
+	    align-content: center;
+	    align-items: center;
+	    width:100vw;
+	    height:100vh;
+	    z-index: 2;
+	}
+
+	a{
+	    font-size: 2vw;
+	}
+	.icon{
+		width: 20vw;
+	    height: 20vw;
+	}
+	
+	#home{
+
+	}
+
+	#box_top{
+	    height:5vh;
+	}
+	#box_bottom{
+	    height:5vh;
+	    top:95vh;
+	}	
+
+	#eric{
+	    font-size: 3vh;
+	    padding-top: 1vh;
+  		padding-bottom: 1vh;
+	}
+}
