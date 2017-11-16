@@ -1,0 +1,67 @@
+.M_E_T_A_box{
+    display: flex;
+    flex-shrink: 0;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    z-index: 2;
+}
+@media only screen and (orientation: portrait) {
+
+    #b1{
+        display: none;
+    }
+    #b2{
+        width: 80vw;
+        height: auto;
+        display: initial;
+    }
+    .sketch{
+        width: 100%;
+        height: auto;
+        margin: 3vw;
+    }
+    p{
+        font-size: 4vw;
+        text-align: center;
+    }
+    a{
+        text-align: center;
+    }
+    #box_bottom{
+        top: 325vh;
+    }   
+}
+
+@media only screen and (orientation: landscape) {
+    .M_E_T_A_box{
+        display: flex;
+        flex-shrink: 0;
+        width:100vw;
+        height:auto;
+        z-index: 2;
+    }
+    #contact{
+        font-size: 4vw;
+    }
+
+    #b1{
+        justify-content: space-around;
+        width: 25vw;
+        height: 25vh;
+    }
+    #b2{
+        width: 40vw;
+        height: auto;
+    }
+    .sketch{
+        width: 100%;
+        height: auto;
+        margin: 3vw;
+    }
+    #box_bottom{
+        top: 525vh;
+    }   
+
+}
