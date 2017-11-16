@@ -1,29 +1,5 @@
-#b1{
-   	width: 33vw;
-	height: 100vh;
-}
-#b2{
-	width: 33vw;
-	height: 100vh;
-}
-#b3{
-   	width: 33vw;
-	height: 100vh;
-}
-
 @media only screen and (orientation: portrait) {
 
-	#b1{
-   	width: 50vw;
-	height: 100vh;
-	}
-	#b2{
-		display: none;
-	}
-	#b3{
-	   	width: 50vw;
-		height: 100vh;
-	}
 	article{
 		margin: 0 0 20vw 0;
 		width: 36vw;
@@ -38,14 +14,8 @@
 	p{
 	    font-size: 3vw;
 	}
-
-	#box_top{
-	    flex-flow: row nowrap;
-	    justify-content: space-around;
-	}
-
-	#home-phone{
-
+	.spacer{
+		height: 5vh;
 	}
 
 }
@@ -53,7 +23,6 @@
 @media only screen and (orientation: landscape) {
 
 	article{
-		margin: 5vw;
 		width: 24vw;
 		height: 13.5vw;	
 	}
@@ -65,19 +34,20 @@
 
 	p{
 	    font-size: 1.5vw;
+	    text-align: center;
 	}
 
-	#audio_production{
+	#title{
 		position: absolute;
 		top: 15vh;
 		font-size: 4vw;
 	}
 
-	#home-phone{
-		display: none;
+	a{
+		margin: 0 0 5vh 0;
 	}
-	#home-audio_production{
-		display: none;
+	.spacer{
+		height: 15vw;
 	}
 
 }

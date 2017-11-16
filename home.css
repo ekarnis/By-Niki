@@ -1,4 +1,4 @@
-#audio_production{
+#audio{
     background-image: url("PNGs/home/audio.png");
 }
 
@@ -6,7 +6,7 @@
     background-image: url("PNGs/home/sketchbook.png");
 }
 
-#video_production{
+#video{
     background-image: url("PNGs/home/video.png");
 }
 
@@ -18,7 +18,7 @@
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_LetsBegin1.png");
 }
 
-#audio_production:hover {
+#audio:hover {
 	background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_audio_production2.png");
 }
 
@@ -26,10 +26,30 @@
 	background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Buy2.png");
 }	
 
-#video_production:hover {
+#video:hover {
 	background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Cast_Crew2.png");
 }	
 
 #contact:hover {
 	background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Contact2.png");
 }	
+
+@media only screen and (orientation: portrait) {
+	.icon{
+		width: 30vw;
+	    height: 30vw;
+	}
+}
+
+@media only screen and (orientation: landscape) {
+	.icon{
+		width: 20vw;
+	    height: 20vw;
+	    margin: 0;
+
+	}
+	a{
+		margin: 0 0 5vh 0;
+	}
+
+}

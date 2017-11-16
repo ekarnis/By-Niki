@@ -4,7 +4,7 @@ body {
     background-color: #000000;
     width:100vw;
     height:100vh;
-    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 	color: white;
 }
 a{
@@ -13,20 +13,21 @@ a{
 	color: white;
 	text-decoration:none;
 	text-align: center;
-	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-
-#b1{
-   	width: 33vw;
-	height: 100vh;
+.subtitle{
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 2vh;
 }
-#b2{
-	width: 33vw;
-	height: 100vh;
-}
-#b3{
-   	width: 33vw;
-	height: 100vh;
+.M_E_T_A_box{
+    display: flex;
+    flex-shrink: 0;
+    width:100vw;
+    height:90vh;
+    z-index: 2;
+    position: absolute;
 }
 
 #box_top{
@@ -61,16 +62,12 @@ a{
 
 @media only screen and (orientation: portrait) {
 	.M_E_T_A_box{
-        display: flex;
-        flex-shrink: 0;
         flex-flow: row nowrap;
         justify-content: space-between;
         align-content: center;
         align-items: stretch;
-        width:100vw;
-        height:100vh;
-        z-index: 2;
-
+        top:10vh;
+        height: 80vh;
     }
 	.box{
 	    display: flex;
@@ -82,22 +79,27 @@ a{
 	    height:100vh;
 	    z-index: 2;
 	}
-
+	#b1{
+  	 	width: 50vw;
+		height: 80vh;
+	}
+	#b2{
+		display: none;
+	}
+	#b3{
+	   	width: 50vw;
+		height: 80vh;
+	}
 	a{
 	    font-size: 5vw;
-	}
-	.icon{
-		width: 30vw;
-	    height: 30vw;
-	}
-	
-	#home{
-
 	}
 
 	#box_top{
 	    height:10vh;
+	    flex-flow: row nowrap;
+	    justify-content: space-around;
 	}
+
 	#box_bottom{
 	    height:10vh;
 	    top:90vh;
@@ -108,20 +110,20 @@ a{
 	    padding-top: 5vw;
   		padding-bottom: 5vw;
 	}
+	.spacer{
+		width: 15vw;
+	    height: 15vw;
+	}
 }
 
 @media only screen and (orientation: landscape) {
 	.M_E_T_A_box{
-        display: flex;
-        flex-shrink: 0;
         flex-flow: row nowrap;
         justify-content: space-between;
         align-content: center;
         align-items: stretch;
-        width:100vw;
-        height:100vh;
-        z-index: 2;
-
+        top: 5vh;
+        height: 90vh;
     }
 	.box{
 	    display: flex;
@@ -133,21 +135,26 @@ a{
 	    height:100vh;
 	    z-index: 2;
 	}
-
+	#b1{
+	   	width: 25vw;
+		height: 90vh;
+	}
+	#b2{
+		width: 50vw;
+		height: 90vh;
+	}
+	#b3{
+	   	width: 25vw;
+		height: 90vh;
+	}
 	a{
 	    font-size: 2vw;
-	}
-	.icon{
-		width: 20vw;
-	    height: 20vw;
-	}
-	
-	#home{
-
 	}
 
 	#box_top{
 	    height:5vh;
+	    top:0;
+
 	}
 	#box_bottom{
 	    height:5vh;
@@ -158,5 +165,18 @@ a{
 	    font-size: 3vh;
 	    padding-top: 1vh;
   		padding-bottom: 1vh;
+	}
+	.spacer{
+		width: 10vw;
+	    height: 10vw;
+	}
+	#home-mobile{
+		display: none;
+	}
+	#title{
+		font-size: 4vw;
+	}
+	#title-mobile{
+		display: none;
 	}
 }

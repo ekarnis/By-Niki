@@ -1,7 +1,3 @@
-p{
-	color: white;
-}
-
 @media only screen and (orientation: portrait) {
 
 	#b1{
@@ -33,10 +29,6 @@ p{
 	#box_top{
 	    flex-flow: row nowrap;
 	    justify-content: space-around;
-	}
-
-	#home-phone{
-
 	}
 
 }
