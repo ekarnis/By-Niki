@@ -21,15 +21,21 @@
 }
 
 @media only screen and (orientation: landscape) {
+	#b1{
+        justify-content: space-around;
+	}
 
+	#b3{
+        justify-content: space-around;
+	}
 	article{
 		width: 24vw;
-		height: 13.5vw;	
+		height: 20vw;	
 	}
 
 	iframe{
 		width: 100%;
-		height: 100%;		
+		height: 13.5vw;	
 	}
 
 	p{
@@ -38,14 +44,10 @@
 	}
 
 	#title{
-		position: absolute;
-		top: 15vh;
+
 		font-size: 4vw;
 	}
 
-	a{
-		margin: 0 0 5vh 0;
-	}
 	.spacer{
 		height: 15vw;
 	}

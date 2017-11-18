@@ -1,15 +1,17 @@
 @media only screen and (orientation: portrait) {
 
 	#b1{
-   	width: 50vw;
-	height: 100vh;
+	   	width: 15vw;
+		height: 80vh;
 	}
 	#b2{
-		display: none;
+		width: 70vw;
+		height: 80vh;
+		display: initial;
 	}
 	#b3{
-	   	width: 50vw;
-		height: 100vh;
+	   	width: 15vw;
+		height: 80vh;
 	}
 
 	iframe{
@@ -24,6 +26,9 @@
 	#box_top{
 	    flex-flow: row nowrap;
 	    justify-content: space-around;
+	}
+	#title,#home{
+		display: none;
 	}
 
 }
@@ -55,12 +60,6 @@
 		font-size: 4vw;
 	}
 
-	#home-phone{
-		display: none;
-	}
-	#home-makers-pod{
-		display: none;
-	}
 	a{
 		margin: 0 0 5vh 0;
 	}

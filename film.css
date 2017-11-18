@@ -1,0 +1,46 @@
+iframe{
+	height: 100%;
+	width:100%;
+}
+@media only screen and (orientation: portrait) {
+	.M_E_T_A_box{
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        top:10vh;
+        height: 80vh;
+    }
+	#b1{
+  	 	width: 80vw;
+		height: 40vh;
+	}
+	#b3{
+	   	width: 80vw;
+		height: 40vh;
+	}
+	.icon{
+		width: 64vw;
+	    height: 36vw;
+	}
+}
+
+@media only screen and (orientation: landscape) {
+	#b1{
+	   	width: 40vw;
+		height: 90vh;
+	}
+	#b2{
+		width: 20vw;
+		height: 90vh;
+	}
+	#b3{
+	   	width: 40vw;
+		height: 90vh;
+	}
+	.icon{
+		width: 32vw;
+	    height: 18vw;
+	    margin: 3vw;
+	}
+}
