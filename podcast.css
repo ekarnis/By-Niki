@@ -1,12 +1,12 @@
 @media only screen and (orientation: portrait) {
-	iframe{
+	#mpod{
 		width: 35vw;
 		height: 35vw;	
 	}
 }
 @media only screen and (orientation: landscape) {
-	iframe{
-		width: 100%;
-		height: 40vh;	
+	#mpod{
+		width: 20vw;
+		height: 20vw;	
 	}
 }

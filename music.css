@@ -1,27 +1,28 @@
 @media only screen and (orientation: portrait) {
 	#content-holder{
-		width: 50vw;
+		width: 100%;
 		flex-flow: column;
+		height: 50vw;
 	}
-	#bella{
-		width: 48vw;
-		height: 27vw;	
+	#sesh{
+		width: 72vw;
+		height: 10.2vw;	
 	}
-	#the-benz{
-		width: 48vw;
-		height: 27vw;		
+	#bandcamp{
+		width: 72vw;
+		height: 11.31vw;	
 	}
 }
 @media only screen and (orientation: landscape) {
 	#content-holder{
 	width: 66vw;
 	}
-	#bella{
+	#sesh{
 		width: 24vw;
-		height: 13.5vw;	
+		height: 3.4vw;	
 	}
-	#the-benz{
+	#bandcamp{
 		width: 24vw;
-		height: 13.5vw;		
+		height: 3.77vw;		
 	}
 }
