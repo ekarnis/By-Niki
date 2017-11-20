@@ -1,31 +1,26 @@
 @media only screen and (orientation: portrait) {
+	iframe{
+		width: 64vw;
+		height: 36vw		
+	}
 	#content-holder{
-		width: 100%;
+		width: 50vw;
 		height: 80vw;
 		flex-flow: column;
 	    align-content: center;
 	    align-items: center;
 		justify-content: space-around;
 	}
-	#sesh{
-		width: 35vw;
-		height: 35vw;
-	}
-	#bandcamp{
-		width: 35vw;
-		height: 35vw;
-	}
 }
 @media only screen and (orientation: landscape) {
+	iframe{
+		width: 32vw;
+		height: 18vw;	
+	}
+	#spacer{
+		height: 5vh;
+	}
 	#content-holder{
-	width: 66vw;
-	}
-	#sesh{
-		width: 20vw;
-		height: 20vw;	
-	}
-	#bandcamp{
-		width: 20vw;
-		height: 20vw;		
+		width: 66vw;
 	}
 }

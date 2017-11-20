@@ -70,6 +70,8 @@ nav{
 nav a{
     text-transform: uppercase;
     font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-style: italic;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000000;
     -webkit-text-fill-color: #FFFFFF;
@@ -93,11 +95,17 @@ h2 p{
 	display: flex;
 	flex-flow: row;
 	justify-content: space-around;
+    font-family: 'Overpass Mono', monospace;
+    font-weight: 700;
+    font-style: italic;
    }
 h2 a{
 	display: flex;
 	flex-flow: row;
 	justify-content: space-around;
+    font-family: 'Overpass Mono', monospace;
+    font-weight: 700;
+    font-style: italic;
    }
 #content-holder{
 	display: flex;

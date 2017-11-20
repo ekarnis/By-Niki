@@ -1,7 +1,11 @@
 @media only screen and (orientation: portrait) {
 	#content-holder{
 		width: 50vw;
+		height: 60vw;
 		flex-flow: column;
+	    align-content: center;
+	    align-items: center;
+		justify-content: space-around;
 	}
 	#bella{
 		width: 48vw;
@@ -11,10 +15,21 @@
 		width: 48vw;
 		height: 27vw;		
 	}
+	#ru{
+		width: 27vw;		
+		height: 27vw;	
+	}
+	#uway{
+		width: 27vw;		
+		height: 27vw;		
+	}
+	#spacer{
+		height: 5vh;
+	}
 }
 @media only screen and (orientation: landscape) {
 	#content-holder{
-	width: 66vw;
+		width: 66vw;
 	}
 	#bella{
 		width: 24vw;
@@ -23,5 +38,16 @@
 	#the-benz{
 		width: 24vw;
 		height: 13.5vw;		
+	}
+	#ru{
+		width: 13.5vw;		
+		height: 13.5vw;	
+	}
+	#uway{
+		width: 13.5vw;		
+		height: 13.5vw;		
+	}
+	#spacer{
+		height: 5vh;
 	}
 }
